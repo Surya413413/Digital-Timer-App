@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  height: 100vh;
+  box-shadow: 0px 4px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.timer {
+  width: 600px;
+  height: 600px;
+}
+.timing-container {
+  width: 250px;
+  height: 250px;
+  border: 1px solid red;
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.play-icon {
+  width: 50px;
+  height: 50px;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.second-container {
+  display: flex;
+}
+.incre-desc-container {
+  display: flex;
+}
+.minus-button {
+  background-color: transparent;
+  border-width: 0px;
+  margin: 10px;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  text-decoration: solid;
+}
+.number-count {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  width: 100px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.third-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fourth-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
